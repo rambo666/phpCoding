@@ -30,7 +30,7 @@ class Task extends Controller
       $task = new Tasks;
       $task->desc=$request->desc;
       $task->priority=$request->priority;
-      $task->name=$request->desc;
+      $task->name=$request->name;
       $task->due_date=$request->due_date;
       $task->status=$request->status;
 
